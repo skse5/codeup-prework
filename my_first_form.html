@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		<h1>User Login</h1>
+		<form method="POST" action="http://requestb.in/x5g9n9x5">
+   	<p>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" placeholder="Enter your username">
+    </p>
+    <p>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Enter your password">
+    </p>
+    <p>
+        <button type="submit">Login</button>
+    </p>
+		</form>
+		<h1>Compose an Email</h1>
+		<form method="POST" action="http://requestb.in/x5g9n9x5">
+	<p>
+		<input type="text" name="To" placeholder="To">
+		<input type="text" name="from" placeholder="from">
+	</p>
+	<p>
+		<input type="text" name="subject" placeholder="Subject">
+	</p>
+	<p>
+		<textarea id="email_body" name="email_body">
+			
+		</textarea>
+	</p>
+	<p>
+		<button type="submit">Send</button>
+	</p>
+
+		<input type="checkbox" id="save_copy" name="save_copy" value="yes" checked>
+		<label for="save_copy">Save copy to sent folder?</label>
+		</form>
+
+		<h1>Multiple Choice Test</h1>
+		<form method="POST" action="http://requestb.in/x5g9n9x5">
+
+
+		<p>What color is the sky?</p>
+<label>
+    <input type="radio" name="q1" value="pink">
+    Pink
+</label>
+<label>
+    <input type="radio" name="q1" value="red">
+    Red
+</label>
+<label>
+    <input type="radio" name="q1" value="blue">
+    Blue
+</label>
+<label>
+    <input type="radio" name="q1" value="green">
+    Green
+</label>
+
+		<p>What is 9+10?</p>
+<label>
+	<input type="radio" name="q2" value="21">
+	21
+</label>
+<label>
+	<input type="radio" name="q2" value="18">
+	18
+</label>
+<label>
+	<input type="radio" name="q2" value="19">
+	19
+</label>
+<label>
+	<input type="radio" name="q2" value="910">
+	910
+</label>
+
+		<p>What colors are in a rainbow?</p>
+<label><input type="checkbox" id="a1" name="a[]" value="red"> Red
+</label>
+<label><input type="checkbox" id="a2" name="a[]" value="orange">
+ Orange
+ </label>
+<label><input type="checkbox" id="a3" name="a[]" value="pink"> Pink
+</label>
+<label><input type="checkbox" id="a4" name="a[]" value="white"> White
+</label>
+		</form>
+
+<label for="media">Favorite multimedia devices?</label>
+<select id="media" name="media[]" multiple>
+    <option value="tablet">Tablet</option>
+    <option value="smartphone">Smartphone</option>
+    <option value="laptop">Laptop</option>
+</select>
+		</form>
+		<h1>Select Testing</h1>
+		<form method="POST" action="http://requestb.in/x5g9n9x5">
+<label>Are you human?</label>
+<select id="human" name="human">
+	<option selected value="0">No</option>
+	<option value="1">Yes</option>
+</select>
+
+	</body>
+</html>
